@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Optimization -->
+    <title>فضيل كرشاني | مصمم جرافيك وممنتج محترف | Fodil Kerchani</title>
+    <meta name="description" content="البورتفوليو الشخصي لفضيل كرشاني - مصمم جرافيك متخصص في الهويات البصرية والبرندات، وممنتج فيديو ومصمم عروض تقديمية محترف. عمره 23 سنة ويقدم تصاميم مبتكرة وعصرية.">
+    <meta name="keywords" content="فضيل كرشاني, مصمم جرافيك, هويات بصرية, برندات, مونتاج, تعديل فيديو, عروض تقديمية, بورتفوليو, الجزائر, Fodil Kerchani, Graphic Designer, Brand Identity, Video Editor, Presentation Design">
+    <meta name="author" content="Fodil Kerchani">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="فضيل كرشاني | مصمم جرافيك وممنتج محترف">
+    <meta property="og:description" content="تصفح معرض أعمال فضيل كرشاني في تصميم الهويات البصرية، البرندات، المونتاج، والعروض التقديمية.">
+    <meta property="og:image" content="assets/fodil.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+    
+    <!-- Canvas for interactive background particles -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Header / Glassmorphism Nav -->
+    <header class="glass-header">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">FODIL<span class="highlight">.</span></span>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="#hero" class="active" data-i18n="nav-home">الرئيسية</a>
+                <a href="#about" data-i18n="nav-about">من أنا</a>
+                <a href="#portfolio" data-i18n="nav-portfolio">أعمالي</a>
+                <a href="#resume" data-i18n="nav-resume">مسيرتي</a>
+                <a href="#contact" data-i18n="nav-contact">اتصل بي</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <!-- Language Toggle -->
+                <button id="lang-toggle" class="btn-icon" aria-label="Switch Language">
+                    <span class="lang-text">EN</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                </button>
+                
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="btn-icon" aria-label="Toggle Theme">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+                
+                <a href="#contact" class="btn-primary btn-sm hide-mobile" data-i18n="nav-cta">ابدأ مشروعك</a>
+            </div>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Menu -->
+    <div class="mobile-nav">
+        <a href="#hero" class="mobile-link" data-i18n="nav-home">الرئيسية</a>
+        <a href="#about" class="mobile-link" data-i18n="nav-about">من أنا</a>
+        <a href="#portfolio" class="mobile-link" data-i18n="nav-portfolio">أعمالي</a>
+        <a href="#resume" class="mobile-link" data-i18n="nav-resume">مسيرتي</a>
+        <a href="#contact" class="mobile-link" data-i18n="nav-contact">اتصل بي</a>
+        <a href="#contact" class="btn-primary btn-md" data-i18n="nav-cta" style="margin-top: 20px;">ابدأ مشروعك</a>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="badge" data-i18n="hero-badge">✨ متاح للعمل الحر والمشاريع</div>
+                    <h1 class="hero-title" data-i18n="hero-title">أصنع هوية بصرية <br><span class="gradient-text">تخلّد علامتك التجارية</span></h1>
+                    <p class="hero-subtitle" data-i18n="hero-desc">أهلاً بك، أنا <strong>فضيل كرشاني</strong>. مصمم جرافيك محترف متخصص في الهويات البصرية والبرندات، ممنتج فيديو سينمائي، ومصمم عروض تقديمية تروي القصص وتجذب الاستثمارات.</p>
+                    
+                    <div class="hero-btns">
+                        <a href="#portfolio" class="btn-primary" data-i18n="hero-cta-portfolio">تصفح أعمالي</a>
+                        <a href="#contact" class="btn-secondary" data-i18n="hero-cta-contact">تواصل معي</a>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://behance.net" target="_blank" class="social-link" aria-label="Behance">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8h4"></path><path d="M9 13.5H5"></path><path d="M9 9.5H5"></path><path d="M20 11.5a4.5 4.5 0 0 0-4.5 4.5h9A4.5 4.5 0 0 0 20 11.5z"></path><path d="M12 11.5a4.5 4.5 0 0 1-4.5 4.5H3v-10h4.5a4.5 4.5 0 0 1 4.5 4.5v1z"></path></svg>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="https://www.instagram.com/fodil.design?igsh=Ymg4ZnV0azg5MjVv" target="_blank" class="social-link" aria-label="Instagram">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image-container">
+                    <div class="glowing-orb"></div>
+                    <div class="glass-frame">
+                        <img src="assets/fodil.jpg" alt="فضيل كرشاني - Fodil Kerchani" class="hero-img">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Quick Stats Section -->
+            <div class="stats-container container">
+                <div class="stats-glass">
+                    <div class="stat-item">
+                        <span class="stat-number">23</span>
+                        <span class="stat-label" data-i18n="stat-age">العمر (سنة)</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label" data-i18n="stat-exp">سنوات الخبرة</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label" data-i18n="stat-satisfaction">رضا العملاء</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">120+</span>
+                        <span class="stat-label" data-i18n="stat-projects">مشاريع منجزة</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag" data-i18n="about-tag">تفاصيل أكثر</span>
+                    <h2 class="section-title" data-i18n="about-title">شغف بالتفاصيل، إبداع في التنفيذ</h2>
+                    <p class="section-desc" data-i18n="about-subtitle">أجمع بين الألوان والأشكال والقصص لإنشاء هويات بصرية تعزز قيمة الشركات، ومونتاج فيديوهات يحبس الأنفاس، وعروض تقديمية تقنع المستثمرين.</p>
+                </div>
+                
+                <div class="about-grid">
+                    <!-- About Image Card -->
+                    <div class="about-image-card glass-card text-center">
+                        <div class="about-img-frame">
+                            <img src="assets/fodil.jpg" alt="فضيل كرشاني - Fodil Kerchani" class="about-img-avatar">
+                        </div>
+                        <h3 class="about-img-name">فضيل كرشاني</h3>
+                        <p class="about-img-role gradient-text" data-i18n="about-detail-specialty-val">مصمم هويات بصرية وبرندات</p>
+                    </div>
+
+                    <div class="about-info-card glass-card">
+                        <h3 class="card-title" data-i18n="about-bio-title">رؤيتي الإبداعية</h3>
+                        <p class="card-text" data-i18n="about-bio-desc">في سن الـ 23، استطعت صقل مهاراتي لدمج ثلاثة عوالم إبداعية متكاملة: التصميم الجرافيكي الرصين، والمونتاج السينمائي الحي، وتصميم العروض التقديمية المقنعة. أهتم جداً ببناء "هويات بصرية وبرندات" قوية مبنية على دراسة السوق وسلوك المستهلك لضمان تميز علامتك التجارية وتفردها.</p>
+                        
+                        <div class="personal-details">
+                            <div class="detail-row">
+                                <span class="detail-label" data-i18n="about-detail-specialty">التخصص الأساسي:</span>
+                                <span class="detail-val" data-i18n="about-detail-specialty-val">مصمم هويات بصرية وبرندات</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label" data-i18n="about-detail-tools">أدوات العمل:</span>
+                                <span class="detail-val">Premiere, After Effects, Illustrator, Photoshop, PowerPoint</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label" data-i18n="about-detail-loc">المقر:</span>
+                                <span class="detail-val" data-i18n="about-detail-loc-val">الجزائر (ومتاح للعمل عن بعد عالمياً)</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-card glass-card">
+                        <h3 class="card-title" data-i18n="about-skills-title">المهارات والقدرات</h3>
+                        
+                        <div class="skill-progress-bar">
+                            <div class="skill-info">
+                                <span class="skill-name" data-i18n="skill-branding">الهويات البصرية والبرندات</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-progress-bar">
+                            <div class="skill-info">
+                                <span class="skill-name" data-i18n="skill-video">مونتاج الفيديو وصناعة الأفلام</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-progress-bar">
+                            <div class="skill-info">
+                                <span class="skill-name" data-i18n="skill-presentation">تصميم العروض التقديمية (Pitch Decks)</span>
+                                <span class="skill-percent">93%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" style="width: 93%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-progress-bar">
+                            <div class="skill-info">
+                                <span class="skill-name" data-i18n="skill-motion">موشن جرافيك وتأثيرات بصرية</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag" data-i18n="portfolio-tag">معرض الأعمال</span>
+                    <h2 class="section-title" data-i18n="portfolio-title">إبداع يتحدث بالنيابة عني</h2>
+                    <p class="section-desc" data-i18n="portfolio-subtitle">شاهد عينة من أحدث المشاريع التي قمت بتنفيذها لعملائي في مختلف التخصصات الإبداعية.</p>
+                    <div style="margin-top: 15px;">
+                        <a href="https://www.behance.net/fodilart03" target="_blank" class="badge" style="animation: none; cursor: pointer; border-color: rgba(0, 245, 212, 0.4); background: rgba(0, 245, 212, 0.08); color: #00f5d4;">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-inline-end: 4px;"><path d="M16 8h4"></path><path d="M9 13.5H5"></path><path d="M9 9.5H5"></path><path d="M20 11.5a4.5 4.5 0 0 0-4.5 4.5h9A4.5 4.5 0 0 0 20 11.5z"></path><path d="M12 11.5a4.5 4.5 0 0 1-4.5 4.5H3v-10h4.5a4.5 4.5 0 0 1 4.5 4.5v1z"></path></svg>
+                            <span>behance.net/fodilart03</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Portfolio Filters -->
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all" data-i18n="filter-all">الكل</button>
+                    <button class="filter-btn" data-filter="branding" data-i18n="filter-branding">هويات بصرية وبرندات</button>
+                    <button class="filter-btn" data-filter="video" data-i18n="filter-video">مونتاج وفيديو</button>
+                    <button class="filter-btn" data-filter="presentation" data-i18n="filter-presentation">عروض تقديمية</button>
+                </div>
+                
+                <div class="portfolio-grid" id="portfolio-grid-container">
+                    <!-- Projects are dynamically rendered here via app.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Journey Timeline -->
+        <section id="resume" class="resume-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag" data-i18n="resume-tag">الخط الزمني</span>
+                    <h2 class="section-title" data-i18n="resume-title">رحلتي الإبداعية والمهنية</h2>
+                    <p class="section-desc" data-i18n="resume-subtitle">نظرة سريعة على كيفية بنائي لمهاراتي وخبراتي العملية التي أقدمها اليوم بكل فخر.</p>
+                </div>
+                
+                <div class="timeline">
+                    <!-- Event 1 -->
+                    <div class="timeline-item right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">2024 - الآن</span>
+                            <h3 class="timeline-item-title" data-i18n="event1-title">مصمم هويات بصرية وبرندات مستقل (Freelance)</h3>
+                            <p class="timeline-item-desc" data-i18n="event1-desc">بناء وتصميم الهويات البصرية والأنظمة التجارية المتكاملة للعديد من الشركات الناشئة والمشاريع في الجزائر والوطن العربي، وصياغة شعارات فريدة تعكس قيم العلامة وتخلدها.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Event 2 -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">2022 - 2024</span>
+                            <h3 class="timeline-item-title" data-i18n="event2-title">ممنتج وصانع أفلام ترويجية (Cinematic Video Editor)</h3>
+                            <p class="timeline-item-desc" data-i18n="event2-desc">العمل على مونتاج وتعديل وتلوين الفيديوهات الترويجية والإعلانية لشركات كبرى، وصناعة مقاطع ريلز وفيديوهات موشن جرافيك سينمائية تعزز الحضور الرقمي للبرندات.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Event 3 -->
+                    <div class="timeline-item right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">2020 - 2022</span>
+                            <h3 class="timeline-item-title" data-i18n="event3-title">مصمم عروض تقديمية وبدايات شغف التصميم الجرافيكي</h3>
+                            <p class="timeline-item-desc" data-i18n="event3-desc">بداية الانطلاق المهني بالتركيز على تصميم العروض التقديمية الاستثمارية والتعريفية (Pitch Decks) للشركات الناشئة، مع دراسة متعمقة لأسس علم الألوان والتوزيع البصري الشبكي.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Carousel -->
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag" data-i18n="testi-tag">العملاء قالوا</span>
+                    <h2 class="section-title" data-i18n="testi-title">ثقة نعتز بها من شركاء النجاح</h2>
+                </div>
+                
+                <div class="testimonials-slider-container">
+                    <div class="testimonials-slider">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-card glass-card active">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text" data-i18n="testi1-text">"فضيل يمتلك حس إبداعي استثنائي، استطاع فهم قيم شركتنا وصاغها في هوية بصرية مذهلة نالت إشادة واسعة من عملائنا ومستثمرينا. ملتزم جداً بالوقت والتفاصيل."</p>
+                            <div class="testimonial-author">
+                                <span class="author-name" data-i18n="testi1-author">سفيان مرابط</span>
+                                <span class="author-job" data-i18n="testi1-job">مؤسس Horizon Tech</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-card glass-card">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text" data-i18n="testi2-text">"إنتاجه وتعديله للفيديوهات رائع بكل المقاييس. الفيديو الترويجي الذي نفذه لنا كان عاملاً حاسماً في نجاح حملتنا التسويقية وجذب آلاف العملاء الجدد."</p>
+                            <div class="testimonial-author">
+                                <span class="author-name" data-i18n="testi2-author">ياسين بن يوسف</span>
+                                <span class="author-job" data-i18n="testi2-job">مدير تسويق AeroSport</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slider-controls">
+                        <button id="prev-testi" class="slider-btn" aria-label="Previous Text">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                        </button>
+                        <button id="next-testi" class="slider-btn" aria-label="Next Text">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <span class="section-tag" data-i18n="contact-tag">تواصل معي</span>
+                        <h2 class="section-title" data-i18n="contact-title">دعنا نصنع شيئاً <br><span class="gradient-text">عظيماً معاً!</span></h2>
+                        <p class="contact-desc" data-i18n="contact-desc">هل تبحث عن بناء هوية بصرية مبهرة لشركتك؟ أم تحتاج إلى مونتاج يعكس فخامة علامتك التجارية؟ أو ترغب بعرض تقديمي يقنع المستثمرين؟ لا تتردد في طرح فكرتك لنحولها إلى حقيقة.</p>
+                        
+                        <div class="contact-details-list">
+                            <div class="contact-detail-item">
+                                <div class="contact-icon-wrapper">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label" data-i18n="contact-label-email">البريد الإلكتروني</span>
+                                    <a href="mailto:fodil@example.com" class="contact-link">fodil.kerchani@example.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-detail-item">
+                                <div class="contact-icon-wrapper">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label" data-i18n="contact-label-phone">الهاتف / واتساب</span>
+                                    <a href="tel:+213600000000" class="contact-link" dir="ltr">+213 6 00 00 00 00</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container glass-card">
+                        <form id="portfolio-contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name" data-i18n="form-name">الاسم الكريم</label>
+                                <input type="text" id="name" required placeholder="أدخل اسمك الكامل">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" data-i18n="form-email">البريد الإلكتروني</label>
+                                <input type="email" id="email" required placeholder="name@domain.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" data-i18n="form-message">تفاصيل المشروع أو الفكرة</label>
+                                <textarea id="message" rows="5" required placeholder="كيف يمكنني مساعدتك اليوم؟"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn-primary btn-block">
+                                <span class="submit-btn-text" data-i18n="form-submit">إرسال الرسالة</span>
+                                <svg class="submit-spinner" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="display:none; animation: spin 1s linear infinite;"><circle cx="12" cy="12" r="10" stroke="rgba(255,255,255,0.2)"></circle><path d="M12 2a10 10 0 0 1 10 10" stroke="#fff"></path></svg>
+                            </button>
+                            
+                            <div id="form-feedback-success" class="form-feedback success-feedback" style="display:none;" data-i18n="form-success">
+                                ✓ شكراً لتواصلك! تم إرسال رسالتك بنجاح. سأتواصل معك قريباً جداً.
+                            </div>
+                            <div id="form-feedback-error" class="form-feedback error-feedback" style="display:none;" data-i18n="form-error">
+                                ✗ حدث خطأ غير متوقع أثناء إرسال الرسالة، يرجى المحاولة لاحقاً.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <span class="logo-text">FODIL<span class="highlight">.</span></span>
+                <p class="footer-desc" data-i18n="footer-desc">تصاميم ومونتاج مميز يترك انطباعاً دائماً ويعكس فخامة الأعمال وهويتها.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4 class="footer-title" data-i18n="footer-links-title">روابط سريعة</h4>
+                <div class="footer-links-list">
+                    <a href="#hero" data-i18n="nav-home">الرئيسية</a>
+                    <a href="#about" data-i18n="nav-about">من أنا</a>
+                    <a href="#portfolio" data-i18n="nav-portfolio">أعمالي</a>
+                    <a href="#contact" data-i18n="nav-contact">اتصل بي</a>
+                </div>
+            </div>
+            
+            <div class="footer-social">
+                <h4 class="footer-title" data-i18n="footer-social-title">تواصل اجتماعي</h4>
+                <div class="social-links">
+                    <a href="https://behance.net" target="_blank" class="social-link" aria-label="Behance">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8h4"></path><path d="M9 13.5H5"></path><path d="M9 9.5H5"></path><path d="M20 11.5a4.5 4.5 0 0 0-4.5 4.5h9A4.5 4.5 0 0 0 20 11.5z"></path><path d="M12 11.5a4.5 4.5 0 0 1-4.5 4.5H3v-10h4.5a4.5 4.5 0 0 1 4.5 4.5v1z"></path></svg>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="https://www.instagram.com/fodil.design?igsh=Ymg4ZnV0azg5MjVv" target="_blank" class="social-link" aria-label="Instagram">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom text-center">
+            <p>&copy; <span id="current-year">2026</span> <span data-i18n="footer-copyright">فضيل كرشاني. جميع الحقوق محفوظة.</span></p>
+        </div>
+    </footer>
+
+    <!-- Premium Lightbox Modal for Project Details -->
+    <div id="project-lightbox" class="lightbox-modal">
+        <div class="lightbox-backdrop"></div>
+        <div class="lightbox-content-wrapper glass-card">
+            <button class="lightbox-close-btn" aria-label="Close Modal">&times;</button>
+            <div class="lightbox-body">
+                <div class="lightbox-media">
+                    <div id="lightbox-media-placeholder" class="project-gradient-placeholder">
+                        <span id="lightbox-placeholder-icon" class="placeholder-icon">🎨</span>
+                    </div>
+                </div>
+                <div class="lightbox-info">
+                    <span id="lightbox-tag" class="project-tag-badge">التصنيف</span>
+                    <h3 id="lightbox-title">عنوان المشروع</h3>
+                    <p id="lightbox-desc">هنا تفاصيل كاملة وشاملة عن التحديات الإبداعية وكيف تمكن فضيل كرشاني من بناء هذا المشروع بنجاح مذهل يخدم العميل.</p>
+                    
+                    <div class="lightbox-details-grid">
+                        <div class="detail-box">
+                            <span class="detail-box-label" data-i18n="lightbox-client">العميل</span>
+                            <span id="lightbox-detail-client" class="detail-box-val">Horizon Tech</span>
+                        </div>
+                        <div class="detail-box">
+                            <span class="detail-box-label" data-i18n="lightbox-duration">المدة الزمنية</span>
+                            <span id="lightbox-detail-duration" class="detail-box-val">أسبوعين</span>
+                        </div>
+                        <div class="detail-box">
+                            <span class="detail-box-label" data-i18n="lightbox-role">الدور المنجز</span>
+                            <span id="lightbox-detail-role" class="detail-box-val">تصميم بالكامل</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" class="scroll-btn" aria-label="Scroll to top">↑</button>
+
+    <!-- Custom Script -->
+    <script src="app.js"></script>
+</body>
+</html>
