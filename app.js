@@ -159,7 +159,28 @@ let currentLang = 'ar';
 /* ==========================================================================
    List of 20 Projects (Real Behance Works + Supplementary High-End Works)
    ========================================================================== */
-const behanceProjects = [];
+const behanceProjects = [
+    {
+        id: "charm",
+        category: "branding",
+        nameAr: "تصميم الهوية البصرية لعلامة Charm",
+        nameEn: "Brand Identity for Charm Perfumes",
+        tagAr: "هوية بصرية",
+        tagEn: "Brand Identity",
+        cover: "assets/charm_logo.png",
+        behanceUrl: "https://fodil4303-cm.github.io/charm-brand-identity/",
+        liveUrl: "https://fodil4303-cm.github.io/charm-brand-identity/",
+        descAr: "تصميم هوية بصرية فاخرة لعلامة العطور الراقية Charm. شعار ذهبي متوهج ورموز تعبر عن الفخامة والجمال.",
+        descEn: "Bespoke high-end brand identity design for Charm Perfumes, centered around luxury consumer psychology and gold metallic accents.",
+        clientAr: "عطور Charm الفاخرة",
+        clientEn: "Charm Perfumes Ltd",
+        durationAr: "أسبوعين",
+        durationEn: "2 Weeks",
+        roleAr: "تصميم الشعار، الهوية البصرية والتغليف",
+        roleEn: "Logo Design, Packaging & Visual Identity",
+        directLink: true
+    }
+];
 /* ==========================================================================
    DOM Elements Activation & Setup
    ========================================================================== */
@@ -539,6 +560,16 @@ function renderPortfolioProjects() {
         const viewText = currentLang === 'ar' ? 'مشاهدة التفاصيل ←' : 'View Details ←';
         const tagText = currentLang === 'ar' ? proj.tagAr : proj.tagEn;
         
+        const isDirect = proj.directLink === true;
+        const targetUrl = proj.liveUrl || proj.behanceUrl;
+        
+        let actionBtnHtml = '';
+        if (isDirect) {
+            actionBtnHtml = `<a href="${targetUrl}" target="_blank" class="btn-text-link direct-project-link" style="text-decoration: none;">${viewText}</a>`;
+        } else {
+            actionBtnHtml = `<button class="btn-text-link view-project-btn" data-project="${proj.id}">${viewText}</button>`;
+        }
+        
         item.innerHTML = `
             <div class="project-img-wrapper">
                 ${hasCover ? `
@@ -564,13 +595,22 @@ function renderPortfolioProjects() {
                 <h3 class="project-title">${title}</h3>
                 <p class="project-desc">${desc}</p>
                 <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: auto;">
-                    <button class="btn-text-link view-project-btn" data-project="${proj.id}">${viewText}</button>
+                    ${actionBtnHtml}
                     <a href="${proj.behanceUrl}" target="_blank" class="behance-direct-link" style="color: var(--text-muted); font-size: 0.8rem; display: flex; align-items: center; gap: 4px;" title="${directLinkTitle}">
                         ${directLinkSvg}
                     </a>
                 </div>
             </div>
         `;
+        
+        if (isDirect) {
+            item.style.cursor = 'pointer';
+            item.addEventListener('click', (e) => {
+                if (!e.target.closest('.behance-direct-link') && !e.target.closest('.direct-project-link')) {
+                    window.open(targetUrl, '_blank');
+                }
+            });
+        }
         
         container.appendChild(item);
     });
