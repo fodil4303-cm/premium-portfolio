@@ -159,10 +159,7 @@ let currentLang = 'ar';
 /* ==========================================================================
    List of 20 Projects (Real Behance Works + Supplementary High-End Works)
    ========================================================================== */
-const behanceProjects = [
-    {
-        id: 21,
-        category: "branding",
+const behanceProjects = [];
         nameAr: "تصميم الهوية البصرية لبراند عطور Charm",
         nameEn: "Brand Identity for Charm Perfumes",
         tagAr: "هوية بصرية",
