@@ -372,20 +372,24 @@
                     </div>
                     
                     <div class="contact-form-container glass-card">
-                        <form id="portfolio-contact-form" class="contact-form">
+                        <form id="portfolio-contact-form" class="contact-form" action="https://formsubmit.co/fodil4303@gmail.com" method="POST">
+                            <input type="hidden" name="_next" value="https://fodil4303-cm.github.io/premium-creative-portfolio/">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_subject" value="رسالة جديدة من البورتفوليو الخاص بك!">
+                            
                             <div class="form-group">
                                 <label for="name" data-i18n="form-name">الاسم الكريم</label>
-                                <input type="text" id="name" required placeholder="أدخل اسمك الكامل">
+                                <input type="text" id="name" name="name" required placeholder="أدخل اسمك الكامل">
                             </div>
                             
                             <div class="form-group">
                                 <label for="email" data-i18n="form-email">البريد الإلكتروني</label>
-                                <input type="email" id="email" required placeholder="name@domain.com">
+                                <input type="email" id="email" name="email" required placeholder="name@domain.com">
                             </div>
                             
                             <div class="form-group">
                                 <label for="message" data-i18n="form-message">تفاصيل المشروع أو الفكرة</label>
-                                <textarea id="message" rows="5" required placeholder="كيف يمكنني مساعدتك اليوم؟"></textarea>
+                                <textarea id="message" name="message" rows="5" required placeholder="كيف يمكنني مساعدتك اليوم؟"></textarea>
                             </div>
                             
                             <button type="submit" class="btn-primary btn-block">
