@@ -39,7 +39,7 @@ const translations = {
         "filter-all": "الكل",
         "filter-branding": "هويات بصرية وبرندات",
         "filter-video": "مونتاج وفيديو",
-        "filter-presentation": "عروض تقديمية",
+        "filter-presentation": "Editing",
         "filter-graphic": "تصاميم جرافيك",
         "resume-tag": "الخط الزمني",
         "resume-title": "رحلتي الإبداعية والمهنية",
@@ -114,7 +114,7 @@ const translations = {
         "filter-all": "All Work",
         "filter-branding": "Brand Identity",
         "filter-video": "Video Editing",
-        "filter-presentation": "Presentations",
+        "filter-presentation": "Editing",
         "filter-graphic": "Graphic Design",
         "resume-tag": "Experience",
         "resume-title": "My Creative Timeline",
@@ -196,7 +196,8 @@ const behanceProjects = [
             "assets/Create_9_high-quality,_realistic_and_202605311027 (3).jpeg",
             "assets/convert_to_sketch_2K_202605311217.jpeg"
         ],
-        behanceUrl: "https://www.behance.net/fodilart03",
+        behanceUrl: "https://fodil4303-cm.github.io/charm-brand-identity/",
+        liveUrl: "https://fodil4303-cm.github.io/charm-brand-identity/",
         descAr: "تصميم هوية بصرية فاخرة متكاملة لبراند العطور الراقية Charm، بالاعتماد على دراسة سلوك المستهلك وتصميم شعار ذهبي متوهج وعبوات فخمة.",
         descEn: "Bespoke high-end brand identity design for Charm Perfumes, centered around luxury consumer psychology, gold metallic accents, and premium label design.",
         clientAr: "عطور Charm الفاخرة",
@@ -461,342 +462,289 @@ const behanceProjects = [
     {
         id: 17,
         category: "presentation",
-        nameAr: "تصميم العرض التقديمي للاستثمار GreenEnergy",
-        nameEn: "GreenEnergy Corporate Pitch Deck",
+        nameAr: "عرض تقديمي GreenEnergy للاستثمار الأخضر",
+        nameEn: "GreenEnergy Corporate Pitch Deck Design",
         tagAr: "عروض تقديمية",
         tagEn: "Presentation",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808/295a5e232835001.Y3JvcCwxMTUwNiw5MDAwLDI1Niww.png",
-        behanceUrl: "https://www.behance.net/fodilart03",
-        descAr: "عرض تقديمي متطور للمستثمرين (Pitch Deck) مع إنفوجرافيك مخصص ورسوم بيانية جذابة لعقد الشراكات والتمويل الاستثماري.",
-        descEn: "Investor slide deck design integrating custom layouts, clear tables, and beautiful icons for green energy logistics.",
-        clientAr: "GreenEnergy Group",
-        clientEn: "GreenEnergy Group",
-        durationAr: "أسبوعين",
-        durationEn: "2 Weeks",
-        roleAr: "تخطيط وهيكلة وتصميم بصري كامل وعرض تفاعلي",
-        roleEn: "Information Design & Slide Deck Layout"
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DDU-WcOItYn/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "سلايدات تفاعلية مصممة خصيصاً لتبسيط الأرقام والبيانات المعقدة بأسلوب بصري مذهل وجذاب يجمع بين الجمال والبساطة.",
+        descEn: "Interactive and professional slides tailored to simplify complex corporate figures and numbers through breathtaking grids.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
+        durationAr: "3 أيام",
+        durationEn: "3 Days",
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
+    },
+    {
+        id: 18,
+        category: "presentation",
+        nameAr: "الملف التعريفي والتقني لـ B2B Strategy Design",
+        nameEn: "B2B Professional Presentation Strategy Layout",
+        tagAr: "عروض تقديمية",
+        tagEn: "Presentation",
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DEUa9h_tXLD/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "تصميم وتخطيط عروض تقديمية للشركات الاستشارية الكبرى يركز على تباين الألوان والتايبوجرافي لجذب اهتمام المستثمرين.",
+        descEn: "Clean corporate strategy presentations focusing on high-contrast grids and modern layouts to engage investors.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
+        durationAr: "3 أيام",
+        durationEn: "3 Days",
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
     },
     {
         id: 19,
         category: "presentation",
-        nameAr: "الملف التعريفي والتقني لـ B2B Presentation Layout",
-        nameEn: "B2B Professional Presentation Design",
-        tagAr: "عروض تقديمية",
-        tagEn: "Presentation",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808/5a9902231530577.Y3JvcCw5Nj公NzUwLDAsMjMy.jpg",
-        behanceUrl: "https://www.behance.net/fodilart03",
-        descAr: "تصميم عروض تقديمية للشركات والمنظمات المهنية تجمع بين الهيكل التسلسلي الواضح والتايبوجرافي المتكامل لتبسيط الأرقام والبيانات.",
-        descEn: "Highly polished pitch templates made to explain corporate strategies, financial projections, and corporate scale.",
-        clientAr: "مؤسسة الأعمال للتمويل",
-        clientEn: "Corporate Finance Corp",
-        durationAr: "أسبوع واحد",
-        durationEn: "1 Week",
-        roleAr: "تصميم الهيكل، تنسيق الجداول وتصميم الأشكال والإنفوجرافيك",
-        roleEn: "Layout Grid & Slide deck Visuals"
-    },
-    {
-        id: 20,
-        category: "presentation",
         nameAr: "الملف التعريفي للشركة اللوجستية الناشئة E-Sahra",
-        nameEn: "E-Sahra Logistics Startup Profile",
+        nameEn: "E-Sahra Logistics Startup Profile Presentation",
         tagAr: "عروض تقديمية",
         tagEn: "Presentation",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808/f94e6b231530315.Y3JvcCwzODM1LDMwMDAsODUsMA.png",
-        behanceUrl: "https://www.behance.net/fodilart03",
-        descAr: "تصميم وتنظيم الملف التعريفي والتعاقدي لشركة 'إي صحراء' اللوجستية بطابع زجاجي حديث وأشكال فنية رائعة وممتازة.",
-        descEn: "B2B pitch deck and corporate profile designed for E-Sahra transport solutions, using a glassmorphic color palette.",
-        clientAr: "E-Sahra Logistics",
-        clientEn: "E-Sahra Logistics",
-        durationAr: "أسبوع واحد",
-        durationEn: "1 Week",
-        roleAr: "تصميم وتخطيط الإفوجرافيك وتوزيع السلايدات بالكامل",
-        roleEn: "Corporate Profile Design & Gridding"
-    },
-    {
-        id: 16,
-        category: "video",
-        nameAr: "عرض تقديم المنتجات ثلاثي الأبعاد - عطور Charm",
-        nameEn: "3D Product Showcase Reel - Charm Perfumes",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "assets/lux_perfume_with_box_info_202605311028.jpeg",
-        videoSrc: "https://www.instagram.com/reel/DWJkfy2jEQq/?igsh=MTJoaG9kZWI5emNxcw==",
-        behanceUrl: "https://www.behance.net/fodilart03",
-        descAr: "فيديو موشن جرافيك ثلاثي الأبعاد يستعرض فخامة زجاجة عطر Charm الفاخرة وتغليفها الذهبي الأنيق مع إضاءة وتأثيرات بصرية راقية وحيوية.",
-        descEn: "Stunning 3D product visualizer promo for Charm Perfumes, capturing reflection, metallic accents, and high-fidelity lighting shifts.",
-        clientAr: "عطور Charm الفاخرة",
-        clientEn: "Charm Perfumes Ltd",
-        durationAr: "10 أيام",
-        durationEn: "10 Days",
-        roleAr: "المونتاج، الموشن جرافيك، تحريك الأبعاد والإخراج الصوتي",
-        roleEn: "Video Editing, Motion Graphics, 3D Rendering & SFX"
-    },
-    {
-        id: 18,
-        category: "video",
-        nameAr: "الإعلان السينمائي لبراند عطور Charm",
-        nameEn: "Cinematic Spray Promo - Charm Perfumes",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "assets/صمم_هوية_بصرية_كاملة_لعلامة_202605311032.webp",
-        videoSrc: "https://www.instagram.com/reel/DWJkfy2jEQq/?igsh=MTJoaG9kZWI5emNxcw==",
-        behanceUrl: "https://www.behance.net/fodilart03",
-        descAr: "فيديو إعلاني سينمائي يركز على سحر وجاذبية زجاجة عطر Charm الفاخرة، مع لقطات فائقة الدقة لرش العطر بتناسق لوني مدهش.",
-        descEn: "High-end conceptual promo for Charm Perfumes, capturing clean macro spray details, slow-motion fluid physics, and dramatic lighting.",
-        clientAr: "عطور Charm الفاخرة",
-        clientEn: "Charm Perfumes Ltd",
-        durationAr: "أسبوع واحد",
-        durationEn: "1 Week",
-        roleAr: "المونتاج، الموشن جرافيك، تحريك الأبعاد والإخراج الصوتي",
-        roleEn: "Video Editing, VFX, Color Grading & Sound Design"
-    },
-    {
-        id: 22,
-        category: "video",
-        nameAr: "فيديو موشن جرافيك واستعراض هوية الوكالة الرقمية",
-        nameEn: "Digital Informatics Agency Brand Showcase Reel",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/660e50231974937.Y3JvcCwyOTY5LDIzMjIsNTE0LDE3Ng.png",
-        videoSrc: "https://www.instagram.com/reel/DWJkfy2jEQq/?igsh=MTJoaG9kZWI5emNxcw==",
-        behanceUrl: "https://www.behance.net/fodilart03",
-        descAr: "مونتاج وتحريك شعارات هوية وكالة رقمية، يستعرض أصول الماركة والمجسمات بصورة بصرية تفاعلية وسلسة للغاية.",
-        descEn: "A high-end dynamic logo animation reel displaying visual identity mockups with premium metallic and digital flow effects.",
-        clientAr: "الوكالة الرقمية للمعلوماتية",
-        clientEn: "Informatics Agency Corp",
-        durationAr: "أسبوع واحد",
-        durationEn: "1 Week",
-        roleAr: "المونتاج وتحريك الشعارات والمؤثرات البصرية",
-        roleEn: "Video Editing, Logo Animation & Visual Effects"
-    },
-    {
-        id: 23,
-        category: "video",
-        nameAr: "فيديو ترويجي متحرك لتطبيق رفع الملفات السحابي",
-        nameEn: "Promotional UI Animation Reel - Uploader App",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808/b70d4a216249661.Y3JvcCwxMDgwLDg0NCwwLDExNw.jpg",
-        videoSrc: "https://www.instagram.com/reel/DWJkfy2jEQq/?igsh=MTJoaG9kZWI5emNxcw==",
-        behanceUrl: "https://www.behance.net/fodilart03",
-        descAr: "مونتاج وتصميم واجهات متحركة لترويج تطبيق رفع ومشاركة الملفات السحابي بلمسة زجاجية جذابة وحركات سلسة.",
-        descEn: "Stunning user interface animation reel demonstrating upload interactions, loading indicators, and file management flow.",
-        clientAr: "تطبيق Uploader السحابي",
-        clientEn: "Uploader App Cloud",
-        durationAr: "4 أيام",
-        durationEn: "4 Days",
-        roleAr: "تصميم واجهة المستخدم المتحركة والمونتاج الصوتي",
-        roleEn: "UI Motion Design, Video Editing & Sound FX"
-    },
-    {
-        id: 24,
-        category: "video",
-        nameAr: "فيديو موشن جرافيك وتحريك شعار UPLESS",
-        nameEn: "UPLESS Logo Animation & Motion Graphics",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/660e50231974937.Y3JvcCwyOTY5LDIzMjIsNTE0LDE3Ng.png",
-        videoSrc: "https://www.instagram.com/reel/DWJkfy2jEQq/?igsh=MTJoaG9kZWI5emNxcw==",
-        behanceUrl: "https://www.behance.net/gallery/231974937/UPLESS-logo",
-        descAr: "تحريك شعار UPLESS بأسلوب الموشن جرافيك الحديث لإبراز ديناميكية ونمو العلامة اللوجستية.",
-        descEn: "Sleek motion design reel showing the dynamic vertical scaling elements of the UPLESS branding system.",
-        clientAr: "UPLESS Global",
-        clientEn: "UPLESS Global",
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DEfuRoJtx13/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "ملفات تعريفية وقوالب عروض تقديمية ذات طابع زجاجي حديث (Glassmorphism) مخصصة للشركات اللوجستية والناشئة.",
+        descEn: "Glassmorphic presentation slides designed for B2B logistics platforms and high-growth startups.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
         durationAr: "3 أيام",
         durationEn: "3 Days",
-        roleAr: "تحريك الشعار والموشن جرافيك والمونتاج الصوتي",
-        roleEn: "Logo Motion, 2D Animation & SFX"
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
     },
     {
-        id: 25,
-        category: "video",
-        nameAr: "فيديو إعلاني سينمائي لافتتاح مقهى TEA Time",
-        nameEn: "TEA Time Cafe Grand Opening Reel",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/295a5e232835001.Y3JvcCwxMTUwNiw5MDAwLDI1Niww.png",
-        behanceUrl: "https://www.behance.net/gallery/232835001/-TEA-time",
-        descAr: "فيديو ريلز إعلاني يستعرض ديكور مقهى TEA Time وجلسات الشاي المميزة بلمسات ألوان دافئة وانتقالات حركية رائعة.",
-        descEn: "Cinematic grand opening social media reel with warm grading and smooth cuts, reflecting the cozy tea culture.",
-        clientAr: "مقهى TEA Time",
-        clientEn: "TEA Time Cafe",
-        durationAr: "5 أيام",
-        durationEn: "5 Days",
-        roleAr: "المونتاج وتعديل الألوان وهندسة المؤثرات الصوتية",
-        roleEn: "Video Editing, Color Grading & Sound FX"
-    },
-    {
-        id: 26,
-        category: "video",
-        nameAr: "موشن جرافيك واستعراض الهوية الكاملة لـ Horizon Tech",
-        nameEn: "Horizon Tech Corporate Brand Identity Showcase Reel",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808/7d740c233469777.Y3JvcCwzMTg2LDI0OTIsMCwzMQ.png",
-        videoSrc: "https://www.instagram.com/reel/DWJkfy2jEQq/?igsh=MTJoaG9kZWI5emNxcw==",
-        behanceUrl: "https://www.behance.net/fodilart03",
-        descAr: "فيديو موشن جرافيك متكامل يستعرض دليل الماركة وأصولها الرقمية والمطبوعات بشكل حركي ثلاثي الأبعاد جذاب للعملاء.",
-        descEn: "Full corporate design showcase reel displaying stationery assets, color guides, and responsive logos in fluid motion.",
-        clientAr: "Horizon Tech",
-        clientEn: "Horizon Tech",
-        durationAr: "أسبوع واحد",
-        durationEn: "1 Week",
-        roleAr: "تصميم الموشن جرافيك والمونتاج الصوتي وتأثيرات الواجهات",
-        roleEn: "Motion Graphics, Visual Direction & Sound Editing"
-    },
-    {
-        id: 27,
-        category: "video",
-        nameAr: "فيديو ريلز ترويجي رياضي حركي لـ Trial Blaze",
-        nameEn: "Trial Blaze Action Sports Promo Reel",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/2d93f1232822349.Y3JvcCwxMTUwNiw5MDAwLDI1Niww.png",
-        videoSrc: "https://www.instagram.com/reel/DWJkfy2jEQq/?igsh=MTJoaG9kZWI5emNxcw==",
-        behanceUrl: "https://www.behance.net/gallery/232822349/TRIAL-BLAZE",
-        descAr: "ريلز حماسي حركي سريع يستعرض قوة وإثارة الأنشطة الرياضية الخارجية بتأثيرات بصرية متفجرة وإيقاع صوتي متناسق.",
-        descEn: "High-energy, fast-paced action sports reel featuring dynamic flash cuts and powerful beats for outdoor activities.",
-        clientAr: "Blaze Outdoors",
-        clientEn: "Blaze Outdoors",
-        durationAr: "4 أيام",
-        durationEn: "4 Days",
-        roleAr: "المونتاج وهندسة الصوت وتلوين وتعديل الألوان الحركية",
-        roleEn: "Video Editing, Sound FX & High-Contrast Grading"
-    },
-    {
-        id: 28,
-        category: "video",
-        nameAr: "فيديو إطلاق الهوية البصرية وقت الشاي TEA time",
-        nameEn: "TEA Time Brand Illustration Launch Video",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/295a5e232835001.Y3JvcCwxMTUwNiw5MDAwLDI1Niww.png",
-        videoSrc: "https://www.instagram.com/reel/DWJkfy2jEQq/?igsh=MTJoaG9kZWI5emNxcw==",
-        behanceUrl: "https://www.behance.net/gallery/232835001/-TEA-time",
-        descAr: "تحريك للرسومات والتصاميم التعبيرية لبراند TEA time مع مؤثرات بصرية مريحة للعين وموسيقى هادئة.",
-        descEn: "Animated illustrations and typographic motion layouts bringing the warm aesthetics of TEA time to life.",
-        clientAr: "مقهى TEA Time",
-        clientEn: "TEA Time Cafe",
+        id: 35,
+        category: "presentation",
+        nameAr: "تصميم الحقيبة التعريفية لمجموعة الرائد القابضة",
+        nameEn: "Al-Raed Holding Corporate Portfolio Slide Deck",
+        tagAr: "عروض تقديمية",
+        tagEn: "Presentation",
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DEp9EdJt6jB/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "تصميم عرض تقديمي متكامل يستعرض الفلسفة والأهداف الاستراتيجية لمجموعة الرائد القابضة بأسلوب هندسي واثق ومتكامل.",
+        descEn: "A clean, elegant corporate portfolio profile showcasing Al-Raed holding achievements and B2B corporate values.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
         durationAr: "3 أيام",
         durationEn: "3 Days",
-        roleAr: "المونتاج وتحريك الرسومات والمؤثرات الصوتية",
-        roleEn: "Video Editing, Animation & SFX"
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
     },
     {
-        id: 29,
-        category: "video",
-        nameAr: "فيديو ترويجي لعرض منتجات غسول Organic",
-        nameEn: "Ghasoul Organic Skincare Video Showcase",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/5ddd5f231607413.Y3JvcCw5NTYsNzQ3LDAsMjg.jpg",
-        videoSrc: "https://www.instagram.com/reel/DWJkfy2jEQq/?igsh=MTJoaG9kZWI5emNxcw==",
-        behanceUrl: "https://www.behance.net/gallery/231607413/ghasoul-",
-        descAr: "فيديو سينمائي هادئ يبرز نقاء وعضوية غسول البشرة الطبيعي بتفاصيل إضاءة ولقطات ماكرو مذهلة للعبوات والتغليف.",
-        descEn: "Serene, nature-infused skincare reel focusing on clean product details, organic palettes, and premium packaging design.",
-        clientAr: "Ghasoul Cosmetics",
-        clientEn: "Ghasoul Cosmetics",
-        durationAr: "أسبوع",
-        durationEn: "1 Week",
-        roleAr: "المونتاج وتعديل وتلوين الألوان والمؤثرات الصوتية الطبيعية",
-        roleEn: "Video Editing, Organic Grading & Sound FX"
+        id: 36,
+        category: "presentation",
+        nameAr: "عرض تقديمي لحاضنة مشاريع TechAlgeria لرواد الأعمال",
+        nameEn: "TechAlgeria Startup Incubator Investment Presentation",
+        tagAr: "عروض تقديمية",
+        tagEn: "Presentation",
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DEsVf5CtnUL/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "عرض سلايدات لرواد الأعمال لعقد صفقات تمويل واستثمار يستعرض البيانات اللوجستية والنمو السوقي بوضوح.",
+        descEn: "Highly persuasive incubator slide deck visualizing statistics, market opportunity, and financial forecasting.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
+        durationAr: "3 أيام",
+        durationEn: "3 Days",
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
     },
     {
-        id: 30,
-        category: "video",
-        nameAr: "فيديو إعلاني سينمائي لعلامة SIYAH LOGO",
-        nameEn: "SIYAH LOGO Cinematic Brand Promo Reel",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/98571d231272919.Y3JvcCwyODYyLDIyMzksNDUzLDM4Mg.png",
-        videoSrc: "https://www.instagram.com/reel/DWJkfy2jEQq/?igsh=MTJoaG9kZWI5emNxcw==",
-        behanceUrl: "https://www.behance.net/gallery/231272919/SIYAH-LOGO",
-        descAr: "فيديو غامض وجريء يستعرض شعار SIYAH الأسود الفاخر، مع إضاءة درامية حادة ومؤثرات صوتية محيطية.",
-        descEn: "A bold, high-contrast monochrome branding reel highlighting the minimal typographic structures of SIYAH.",
-        clientAr: "Siyah Co.",
-        clientEn: "Siyah Co.",
-        durationAr: "5 أيام",
-        durationEn: "5 Days",
-        roleAr: "المونتاج وهندسة الصوت ومؤثرات تباين الضوء والظل",
-        roleEn: "Video Editing, Lighting VFX & Cinematic Sound Design"
+        id: 37,
+        category: "presentation",
+        nameAr: "ملف تعريفي فندقي متكامل لمنتجع الأوراس الفاخر",
+        nameEn: "Aurès Resort Luxury Hotel Profile Slide Deck",
+        tagAr: "عروض تقديمية",
+        tagEn: "Presentation",
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DFirUJNtX6v/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "حقيبة تعريفية فندقية فاخرة تبرز الأجنحة والخدمات السياحية بألوان هادئة وجودة تصميمية استثنائية.",
+        descEn: "Breathtaking hospitality slide templates customized for luxury resorts, using calm colors and high typography.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
+        durationAr: "3 أيام",
+        durationEn: "3 Days",
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
     },
     {
-        id: 31,
-        category: "video",
-        nameAr: "فيديو إطلاق هوية ورشة Yaddi Craft الحرفية",
-        nameEn: "Yaddi Craft Studio Brand Launch Video",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/823fe1231606159.Y3JvcCwyNjM0LDIwNjAsMCw1ODY.png",
-        videoSrc: "https://www.instagram.com/reel/DWJkfy2jEQq/?igsh=MTJoaG9kZWI5emNxcw==",
-        behanceUrl: "https://www.behance.net/gallery/231606159/Yaddi-craft",
-        descAr: "فيديو دافئ ذو طابع ريترو يستعرض حرفية وجودة المنتجات المصنوعة يدوياً بكثير من الحب والمهارة الإنسانية.",
-        descEn: "Charming, retro-graded launch reel capturing the sensory experience and detailed textures of handcrafted designs.",
-        clientAr: "ورشة Yaddi Craft",
-        clientEn: "Yaddi Craft Studio",
-        durationAr: "6 أيام",
-        durationEn: "6 Days",
-        roleAr: "المونتاج الصوتي وإعداد الألوان والتحريك البصري",
-        roleEn: "Video Editing, Retro Grading & Audio Engineering"
+        id: 38,
+        category: "presentation",
+        nameAr: "الملف التعريفي لشركة التطوير العقاري البنيان",
+        nameEn: "Al-Bonyan Real Estate Developer Profile Presentation",
+        tagAr: "عروض تقديمية",
+        tagEn: "Presentation",
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DJCiOzitRB8/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "عرض تعريفي لترويج المشاريع العقارية الكبرى يستعرض المخططات والمجسمات بإنفوجرافيك مخصص عالي التباين.",
+        descEn: "High-end real estate layout deck with customized infoboxes and custom icons explaining masterplans.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
+        durationAr: "3 أيام",
+        durationEn: "3 Days",
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
     },
     {
-        id: 32,
-        category: "video",
-        nameAr: "فيديو ترويجي لمنتجات المأكولات التراثية الجزائرية",
-        nameEn: "Heritage Foods Algeria Rebrand Promo Video",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808/30e555218050889.Y3JvcCwzODM1LDMwMDAsODUsMA.png",
-        videoSrc: "https://www.instagram.com/reel/DWJkfy2jEQq/?igsh=MTJoaG9kZWI5emNxcw==",
-        behanceUrl: "https://www.behance.net/fodilart03",
-        descAr: "فيديو إعلاني شهي ومليء بالألوان والتفاصيل الحركية لتسويق وإعادة إطلاق عبوات المأكولات التراثية للأسواق العالمية.",
-        descEn: "Appetizing promotional video rebrand for heritage food exports, employing fast transitions and vivid color grading.",
-        clientAr: "شركة المنتجات التراثية",
-        clientEn: "Heritage Foods Co.",
-        durationAr: "أسبوع",
-        durationEn: "1 Week",
-        roleAr: "المونتاج وتحرير الفيديوهات الإعلانية وتصحيح الألوان",
-        roleEn: "Commercial Editing, Saturated Grading & Sound"
+        id: 39,
+        category: "presentation",
+        nameAr: "عرض تقديم ودليل التمويل لمؤسسة المستقبل",
+        nameEn: "Al-Mostaqbal Foundation Investment Slide Deck",
+        tagAr: "عروض تقديمية",
+        tagEn: "Presentation",
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DS7SgWQjVIX/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "سلايدات لطلب تمويل ودعم استثماري تبرز الأهداف البيئية والاجتماعية بأسلوب ترويجي مقنع للغاية.",
+        descEn: "Persuasive pitch layout focused on green energy fundings and environmental policies.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
+        durationAr: "3 أيام",
+        durationEn: "3 Days",
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
     },
     {
-        id: 33,
-        category: "video",
-        nameAr: "فيديو إطلاق براند Annastasia Collection الراقية",
-        nameEn: "Annastasia Collection Luxury Brand Launch Video",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808/cdbcfa216506883.Y3JvcCwxMDgwLDg0NCwwLDExNw.jpg",
-        videoSrc: "https://www.instagram.com/reel/DWJkfy2jEQq/?igsh=MTJoaG9kZWI5emNxcw==",
-        behanceUrl: "https://www.behance.net/gallery/244912495/Annastasia-Collection-Branding",
-        descAr: "فيديو ريلز أزياء راقي يستعرض تفاصيل وتناسق ألوان الماركة بأسلوب فريد ومثير للحس الجمالي العصري.",
-        descEn: "High-end editorial fashion campaign launch video, utilizing sleek cuts and monochromatic elegance.",
-        clientAr: "Annastasia Fashion",
-        clientEn: "Annastasia Fashion",
-        durationAr: "5 أيام",
-        durationEn: "5 Days",
-        roleAr: "المونتاج الصوتي وإعداد الألوان والتحريك البصري",
-        roleEn: "Fashion Video Editing, Mood Color Grading & Sound FX"
+        id: 40,
+        category: "presentation",
+        nameAr: "حقيبة تعريفية متكاملة لشركة الاستشارات المالية قرطبة",
+        nameEn: "Cordoba Financial Advisory Slide Deck & Templates",
+        tagAr: "عروض تقديمية",
+        tagEn: "Presentation",
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DT6HUdfjfg2/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "عرض استراتيجي لتبسيط لغة الأرقام والمكاسب المالية السنوية للمساهمين والعملاء بجدول ورسوم فخمة.",
+        descEn: "Premium slide layout displaying complex advisory figures and timelines with clarity and harmony.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
+        durationAr: "3 أيام",
+        durationEn: "3 Days",
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
     },
     {
-        id: 34,
-        category: "video",
-        nameAr: "عرض الهوية البصرية والمطبوعات لمؤسسة الريادة للاستثمار",
-        nameEn: "Al-Riyadah Investment Corporate Identity Motion Reel",
-        tagAr: "مونتاج فيديو",
-        tagEn: "Video Editing",
-        cover: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/5ab81e231940103.Y3JvcCw0MzI0LDMzODIsMTYwLDc0.png",
-        videoSrc: "https://www.instagram.com/reel/DWJkfy2jEQq/?igsh=MTJoaG9kZWI5emNxcw==",
-        behanceUrl: "https://www.behance.net/gallery/231940103/_",
-        descAr: "فيديو رسمي للشركات يستعرض دليل الهوية والمطبوعات لمؤسسة الريادة بأسلوب ثلاثي الأبعاد هادئ وواثق.",
-        descEn: "Elegant B2B corporate branding presentation reel showcasing stationery grids in a smooth panning animation.",
-        clientAr: "مؤسسة الريادة للاستثمار",
-        clientEn: "Al-Riyadah Investment",
-        durationAr: "أسبوع",
-        durationEn: "1 Week",
-        roleAr: "المونتاج الحركي والتأثيرات البصرية والتحريك ثلاثي الأبعاد",
-        roleEn: "Video Editing, Panning motion & 3D Pre-render"
+        id: 41,
+        category: "presentation",
+        nameAr: "عرض تقديمي لشركة التجارة الإلكترونية دكاكين",
+        nameEn: "Dakakeen E-Commerce Venture Pitch Deck",
+        tagAr: "عروض تقديمية",
+        tagEn: "Presentation",
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DTS7BNajYeP/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "سلايدات ترويجية لعرض نموذج العمل التجاري وتدفقات السيولة لعلامة دكاكين التجارية بأسلوب عصري.",
+        descEn: "Modern visual pitch deck showing cashflows, commercial scaling, and e-commerce models.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
+        durationAr: "3 أيام",
+        durationEn: "3 Days",
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
+    },
+    {
+        id: 42,
+        category: "presentation",
+        nameAr: "سلايدات دليل التوظيف والتدريب لمجموعة وفاق",
+        nameEn: "Wifaq Group Recruitment & HR Presentation",
+        tagAr: "عروض تقديمية",
+        tagEn: "Presentation",
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DTaZ5cFDQpj/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "دليل تعريفي للموظفين الجدد لتسهيل الاندماج بالشركة يستعرض الهيكل الإداري بشكل مبسط ومفهوم.",
+        descEn: "Polished onboarding and HR slide templates showing company structures and workflows beautifully.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
+        durationAr: "3 أيام",
+        durationEn: "3 Days",
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
+    },
+    {
+        id: 43,
+        category: "presentation",
+        nameAr: "الملف الاستراتيجي وعرض الاستثمار لشركة النجم اللوجستية",
+        nameEn: "Al-Najm Logistics Strategy & Investment Slides",
+        tagAr: "عروض تقديمية",
+        tagEn: "Presentation",
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DV9Tn7kDW3N/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "عرض استراتيجي للعمليات اللوجستية وتوسيع شبكة النقل التعاقدية لخدمة كبرى الشركات الوطنية والدولية.",
+        descEn: "Highly structured logistics slide deck outlining delivery fleets, network grids, and scale.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
+        durationAr: "3 أيام",
+        durationEn: "3 Days",
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
+    },
+    {
+        id: 44,
+        category: "presentation",
+        nameAr: "عرض تقديمي للحلول السحابية الرقمية CloudTech",
+        nameEn: "CloudTech Digital Solutions Slide Presentation",
+        tagAr: "عروض تقديمية",
+        tagEn: "Presentation",
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DVjcZqsjfh9/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "حقيبة تعريفية للحلول والخدمات التقنية السحابية بأسلوب مستقبلي ونظام ألوان نيون تركيبي مميز.",
+        descEn: "Futuristic cloud architecture presentation deck using custom neon accent nodes and sleek backgrounds.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
+        durationAr: "3 أيام",
+        durationEn: "3 Days",
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
+    },
+    {
+        id: 45,
+        category: "presentation",
+        nameAr: "سلايدات مؤتمر الطاقة والبيئة المستدامة بالجزائر",
+        nameEn: "Algeria Sustainable Energy & Environment slide deck",
+        tagAr: "عروض تقديمية",
+        tagEn: "Presentation",
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DW93FpiNIGy/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "عرض تقديمي تفاعلي يستعرض قضايا التنمية والبيئة المستدامة بمخططات إحصائية ورسومات متطورة.",
+        descEn: "Dynamic event slides displaying sustainable figures and clean tables for high-impact keynotes.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
+        durationAr: "3 أيام",
+        durationEn: "3 Days",
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
+    },
+    {
+        id: 46,
+        category: "presentation",
+        nameAr: "الملف الفني والهندسي لشركة مقاولات العاصمة المعمارية",
+        nameEn: "Al-Assemah Contracting Engineering Presentation",
+        tagAr: "عروض تقديمية",
+        tagEn: "Presentation",
+        cover: "assets/powerpoint_cover.png",
+        videoSrc: "https://www.instagram.com/reel/DWFGZCIDD-F/",
+        behanceUrl: "https://www.instagram.com/make.it.easy_01/?__pwa=1#",
+        descAr: "سلايدات رسمية تستعرض سابقة الأعمال والقدرات الهندسية لشركة المقاولات لإبرام عقود حكومية كبرى.",
+        descEn: "Official engineering pitch deck presenting building permits, past cases, and construction values.",
+        clientAr: "حساب Make It Easy",
+        clientEn: "Make It Easy Hub",
+        durationAr: "3 أيام",
+        durationEn: "3 Days",
+        roleAr: "تصميم المخططات وهندسة السلايدات بالكامل وبث الريلز",
+        roleEn: "Layout Strategy, Slide Gridding & Reel Publishing"
     }
-];
+];;;;;;;;
 /* ==========================================================================
    DOM Elements Activation & Setup
    ========================================================================== */
@@ -1162,6 +1110,15 @@ function renderPortfolioProjects() {
         
         const hasCover = proj.cover && proj.cover.trim() !== '';
         
+        const isInstaLink = proj.behanceUrl.includes('instagram.com');
+        const directLinkTitle = isInstaLink 
+            ? (currentLang === 'ar' ? 'مشاهدة على إنستغرام' : 'View on Instagram') 
+            : (currentLang === 'ar' ? 'مشاهدة على Behance' : 'View on Behance');
+            
+        const directLinkSvg = isInstaLink
+            ? `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>`
+            : `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8h4"></path><path d="M9 13.5H5"></path><path d="M9 9.5H5"></path><path d="M20 11.5a4.5 4.5 0 0 0-4.5 4.5h9A4.5 4.5 0 0 0 20 11.5z"></path><path d="M12 11.5a4.5 4.5 0 0 1-4.5 4.5H3v-10h4.5a4.5 4.5 0 0 1 4.5 4.5v1z"></path></svg>`;
+
         const title = currentLang === 'ar' ? proj.nameAr : proj.nameEn;
         const desc = currentLang === 'ar' ? proj.descAr : proj.descEn;
         const viewText = currentLang === 'ar' ? 'مشاهدة التفاصيل ←' : 'View Details ←';
@@ -1176,6 +1133,16 @@ function renderPortfolioProjects() {
                         <span class="placeholder-icon">${icon}</span>
                     </div>
                 `}
+                
+                ${(proj.videoSrc && proj.videoSrc.trim() !== '') ? `
+                    <div class="video-play-overlay">
+                        <div class="play-btn-circle">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                            </svg>
+                        </div>
+                    </div>
+                ` : ''}
                 <span class="project-tag-badge">${tagText}</span>
             </div>
             <div class="project-info">
@@ -1183,8 +1150,8 @@ function renderPortfolioProjects() {
                 <p class="project-desc">${desc}</p>
                 <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: auto;">
                     <button class="btn-text-link view-project-btn" data-project="${proj.id}">${viewText}</button>
-                    <a href="${proj.behanceUrl}" target="_blank" class="behance-direct-link" style="color: var(--text-muted); font-size: 0.8rem; display: flex; align-items: center; gap: 4px;" title="View on Behance">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8h4"></path><path d="M9 13.5H5"></path><path d="M9 9.5H5"></path><path d="M20 11.5a4.5 4.5 0 0 0-4.5 4.5h9A4.5 4.5 0 0 0 20 11.5z"></path><path d="M12 11.5a4.5 4.5 0 0 1-4.5 4.5H3v-10h4.5a4.5 4.5 0 0 1 4.5 4.5v1z"></path></svg>
+                    <a href="${proj.behanceUrl}" target="_blank" class="behance-direct-link" style="color: var(--text-muted); font-size: 0.8rem; display: flex; align-items: center; gap: 4px;" title="${directLinkTitle}">
+                        ${directLinkSvg}
                     </a>
                 </div>
             </div>
@@ -1209,7 +1176,16 @@ function setupLightboxEvents() {
             const proj = behanceProjects.find(p => p.id == projectId);
             
             if (proj) {
-                const title = currentLang === 'ar' ? proj.nameAr : proj.nameEn;
+                const isInstaLink = proj.behanceUrl.includes('instagram.com');
+        const directLinkTitle = isInstaLink 
+            ? (currentLang === 'ar' ? 'مشاهدة على إنستغرام' : 'View on Instagram') 
+            : (currentLang === 'ar' ? 'مشاهدة على Behance' : 'View on Behance');
+            
+        const directLinkSvg = isInstaLink
+            ? `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>`
+            : `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8h4"></path><path d="M9 13.5H5"></path><path d="M9 9.5H5"></path><path d="M20 11.5a4.5 4.5 0 0 0-4.5 4.5h9A4.5 4.5 0 0 0 20 11.5z"></path><path d="M12 11.5a4.5 4.5 0 0 1-4.5 4.5H3v-10h4.5a4.5 4.5 0 0 1 4.5 4.5v1z"></path></svg>`;
+
+        const title = currentLang === 'ar' ? proj.nameAr : proj.nameEn;
                 const desc = currentLang === 'ar' ? proj.descAr : proj.descEn;
                 const client = currentLang === 'ar' ? proj.clientAr : proj.clientEn;
                 const duration = currentLang === 'ar' ? proj.durationAr : proj.durationEn;
@@ -1303,10 +1279,22 @@ function setupLightboxEvents() {
                         });
                     });
                 } else if (proj.cover && proj.cover.trim() !== '') {
+                    const isInsta = proj.behanceUrl.includes('instagram.com');
+                    let btnText = '';
+                    if (currentLang === 'ar') {
+                        btnText = isInsta ? 'مشاهدة العرض على إنستغرام' : 'عرض المشروع الكامل على Behance';
+                    } else {
+                        btnText = isInsta ? 'View Slide Deck on Instagram' : 'View Full Project on Behance';
+                    }
                     mediaContainer.innerHTML = `
                         <img src="${proj.cover}" alt="${title}" style="width: 100%; height: 100%; object-fit: cover;">
-                        <a href="${proj.behanceUrl}" target="_blank" class="btn-primary btn-sm" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); font-size: 0.8rem; border-radius: 50px;">
-                            View Full Project on Behance
+                        <a href="${proj.behanceUrl}" target="_blank" class="btn-primary btn-sm" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); font-size: 0.8rem; border-radius: 50px; display: flex; align-items: center; gap: 8px;">
+                            ${isInsta ? `
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            ` : `
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8h4"></path><path d="M9 13.5H5"></path><path d="M9 9.5H5"></path><path d="M20 11.5a4.5 4.5 0 0 0-4.5 4.5h9A4.5 4.5 0 0 0 20 11.5z"></path><path d="M12 11.5a4.5 4.5 0 0 1-4.5 4.5H3v-10h4.5a4.5 4.5 0 0 1 4.5 4.5v1z"></path></svg>
+                            `}
+                            <span>${btnText}</span>
                         </a>
                     `;
                 } else {
