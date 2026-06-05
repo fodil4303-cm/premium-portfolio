@@ -486,32 +486,70 @@ document.addEventListener('DOMContentLoaded', () => {
             spinner.style.display = 'block';
             submitBtn.disabled = true;
             
-            // Simulate API request
-            setTimeout(() => {
+            const nameVal = document.getElementById('name').value;
+            const emailVal = document.getElementById('email').value;
+            const messageVal = document.getElementById('message').value;
+
+            fetch("https://formsubmit.co/ajax/fodil4303@gmail.com", {
+                method: "POST",
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: nameVal,
+                    email: emailVal,
+                    message: messageVal,
+                    _subject: "رسالة جديدة من موقعك (البورتفوليو)!"
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
                 spinner.style.display = 'none';
                 btnText.style.display = 'block';
                 submitBtn.disabled = false;
                 
-                // Show visual checkmark
-                successFeedback.style.display = 'block';
-                successFeedback.style.opacity = '0';
-                successFeedback.style.transform = 'translateY(10px)';
-                successFeedback.style.transition = 'all 0.5s ease';
+                if (data.success || data.success === "true") {
+                    successFeedback.style.display = 'block';
+                    successFeedback.style.opacity = '0';
+                    successFeedback.style.transform = 'translateY(10px)';
+                    successFeedback.style.transition = 'all 0.5s ease';
+                    
+                    setTimeout(() => {
+                        successFeedback.style.opacity = '1';
+                        successFeedback.style.transform = 'translateY(0)';
+                    }, 50);
+                    
+                    contactForm.reset();
+                    
+                    setTimeout(() => {
+                        successFeedback.style.opacity = '0';
+                        setTimeout(() => { successFeedback.style.display = 'none'; }, 500);
+                    }, 6000);
+                } else {
+                    throw new Error("API responded with failure");
+                }
+            })
+            .catch(error => {
+                spinner.style.display = 'none';
+                btnText.style.display = 'block';
+                submitBtn.disabled = false;
+                
+                errorFeedback.style.display = 'block';
+                errorFeedback.style.opacity = '0';
+                errorFeedback.style.transform = 'translateY(10px)';
+                errorFeedback.style.transition = 'all 0.5s ease';
                 
                 setTimeout(() => {
-                    successFeedback.style.opacity = '1';
-                    successFeedback.style.transform = 'translateY(0)';
+                    errorFeedback.style.opacity = '1';
+                    errorFeedback.style.transform = 'translateY(0)';
                 }, 50);
                 
-                contactForm.reset(); // Reset form values
-                
-                // Remove success checkmark after 6 seconds
                 setTimeout(() => {
-                    successFeedback.style.opacity = '0';
-                    setTimeout(() => { successFeedback.style.display = 'none'; }, 500);
+                    errorFeedback.style.opacity = '0';
+                    setTimeout(() => { errorFeedback.style.display = 'none'; }, 500);
                 }, 6000);
-                
-            }, 1800);
+            });
         });
     }
 });
